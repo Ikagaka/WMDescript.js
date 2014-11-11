@@ -1,36 +1,39 @@
-Descript.js
-======================
-  Descript.js can parse descript.txt file.
+# WMDescript.js [![Build Status](https://travis-ci.org/ikagaka/WMDescript.js.png)](http://travis-ci.org/ikagaka/WMDescript.js)
 
-Demo
-----------
-* https://dl.dropbox.com/u/265158/GitHub/descript.js/index.html
+[![npm](https://nodei.co/npm/ikagaka.wmdescript.js.png?downloads=true&stars=true)](https://nodei.co/npm/ikagaka.wmdescript.js/)
 
-Usage
-----------
-    var hash = new Descript(Text);
-    console.dir(hash);
+----------Legokichi Duckscallion
 
-Features
-----------------
-* parsing descript.txt to Object
+## Document
 
-License
-----------
-Creative Commons [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+- [WMDescript.js wiki](https://github.com/ikagaka/WMDescript.js/wiki/WMDescript)
+- [WebModule](https://github.com/uupaa/WebModule)
+    - [Slide](http://uupaa.github.io/Slide/slide/WebModule/index.html)
+    - [Development](https://github.com/uupaa/WebModule/wiki/Development)
 
-Copyright &copy; 2012 Legokichi Duckscallion
+## How to use
 
-Acknowledgements
-----------
-* ls for developing the original Ukagaka software <[usada.sakura.vg](http://usada.sakura.vg/)>
-* SSP project <[ssp.shillest.net](http://ssp.shillest.net/)> for high quality Ukagaka clones. (I did not use their code, but studied them extensively)
-* Thanks for ["UKAGAKA" System Documentation Project](http://code.google.com/p/ukadoc/)
+### Browser
 
-See also
-----------
-* [Ikagaka.js](https://github.com/legokichi/ikagaka.js/)
+```js
+<script src="lib/WMDescript.js"></script>
+<script>
+console.log( WMDescript() );
+</script>
+```
 
-Author
-----------
-Legokichi Duckscallion
+### WebWorkers
+
+```js
+importScripts("lib/WMDescript.js");
+
+console.log( WMDescript() );
+```
+
+### Node.js
+
+```js
+var WMDescript = require("lib/WMDescript.js");
+
+console.log( WMDescript() );
+```
