@@ -1,3 +1,7 @@
+WMDescript.js is not maintained now.
+
+Please use [Ikagaka/NarLoader](https://github.com/Ikagaka/NarLoader).
+
 # WMDescript.js [![Build Status](https://travis-ci.org/ikagaka/WMDescript.js.png)](http://travis-ci.org/ikagaka/WMDescript.js)
 
 [![npm](https://nodei.co/npm/ikagaka.wmdescript.js.png?downloads=true&stars=true)](https://nodei.co/npm/ikagaka.wmdescript.js/)
